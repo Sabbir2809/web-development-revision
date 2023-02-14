@@ -1,0 +1,80 @@
+body {
+  margin: 0;
+  box-sizing: border-box;
+  min-height: 100vh;
+}
+.title {
+  background-color: royalblue;
+  text-align: center;
+  color: snow;
+}
+
+.btn-link {
+  background-color: aquamarine;
+  color: black;
+  cursor: pointer;
+  padding: 10px;
+  border: none;
+}
+
+.btn-see-more {
+  background-color: gold;
+  color: black;
+  border-radius: 5px;
+  margin: 10px;
+  padding: 15px 30px;
+  border: 2px solid black;
+}
+
+ol > li {
+  font-size: large;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  list-style: none;
+  height: 40px;
+  background-color: deepskyblue;
+}
+
+ul > li > a {
+  text-decoration: none;
+  color: black;
+}
+
+/* Flex */
+.flex-container {
+  height: 400px;
+  width: 400px;
+  background-color: black;
+  color: white;
+  border: 3px solid red;
+  display: flex;
+  /* flex-direction: column; */
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.flex-elements {
+  height: 50px;
+  width: 100px;
+  font-size: x-large;
+  background-color: gold;
+  color: black;
+  border: 3px solid white;
+}
+
+.flex-container .flex-elements:nth-child(2n) {
+  background-color: red;
+}
+
+footer {
+  height: 30px;
+  background-color: royalblue;
+  color: white;
+  text-align: center;
+}

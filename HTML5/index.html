@@ -5,36 +5,45 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>HTML5</title>
+    <!-- External CSS -->
+    <link rel="stylesheet" href="./../CSS3/style.css" />
+    <!-- Internal CSS -->
+    <style>
+      p {
+        color: brown;
+      }
+    </style>
   </head>
   <body>
-    <!-- Header -->
     <header>
-      <!-- Six Heading Tags -->
-      <h1>Heading 1</h1>
-      <h2>Heading 2</h2>
-      <h3>Heading 3</h3>
-      <h4>Heading 4</h4>
-      <h5>Heading 5</h5>
-      <h6>Heading 6</h6>
+      <h1 class="title">Bangladesh</h1>
     </header>
     <!-- Nav -->
     <nav>
-      <ul>
-        <li>Header</li>
-        <li>Nav</li>
-        <li>Section</li>
-        <li>Article</li>
-        <li>Footer</li>
+      <ul class="navbar">
+        <li><a href="./header.html">Header</a></li>
+        <li><a href="#">Nav</a></li>
+        <li><a href="#">Section</a></li>
+        <li><a href="#">Article</a></li>
+        <li><a href="./footer.html">Footer</a></li>
       </ul>
-    </nav>
-    <!-- hr tag -->
-    <hr />
-    <!-- Section -->
-    <section>
       <!-- HTML Layout -->
       <img
         src="https://www.bitdegree.org/learn/storage/media/images/de63e0dd-5287-4871-aac2-4aeb7678759e.jpg"
         alt="layout" />
+    </nav>
+    <hr />
+    <section class="flex-container">
+      <div class="flex-elements">1</div>
+      <div class="flex-elements">2</div>
+      <div class="flex-elements">3</div>
+      <div class="flex-elements">4</div>
+      <div class="flex-elements">5</div>
+      <div class="flex-elements">6</div>
+    </section>
+    <hr />
+    <!-- Section -->
+    <section>
       <!-- pre Tag -->
       <pre style="background-color: wheat">
       Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ex dolores velit sit quis
@@ -50,8 +59,12 @@
         Debitis saepe tempore adipisci accusantium eaque, eveniet vitae voluptate!
       </p>
       <!-- a tag -->
-      <a href="https://www.facebook.com/Sabbir2809" target="_blank">Link to Facebook</a>
+      <a href="https://www.facebook.com/Sabbir2809" target="_blank"
+        ><button class="btn-link">Link to Facebook</button></a
+      >
     </section>
+    <!-- hr tag -->
+    <hr />
     <article>
       <p>
         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque, dolore hic voluptas
@@ -64,7 +77,9 @@
         ducimus amet dignissimos itaque, autem ipsa tenetur facere tempora ex accusantium enim
         necessitatibus. Repellat fugit perspiciatis veritatis deserunt! Amet!
       </p>
+      <button class="btn-see-more">See More</button>
     </article>
+    <hr />
     <aside>
       <ol>
         <li>HTML Tag</li>
@@ -78,8 +93,9 @@
         <li>Table Tag</li>
       </ol>
     </aside>
+    <hr />
     <footer>
-      <small> All rights reserved</small>
+      <small>All Rights Sabbir Hossain</small>
     </footer>
   </body>
 </html>
