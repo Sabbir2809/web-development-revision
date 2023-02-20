@@ -72,6 +72,28 @@ ul > li > a {
   background-color: red;
 }
 
+.box-cotainer {
+  height: 150px;
+  width: 200px;
+  background-color: coral;
+  border: 2px solid yellowgreen;
+  margin: 10px;
+}
+
+.box-cotainer:first-child {
+  background-color: blueviolet;
+  /* position: absolute;
+  z-index: 1;
+  left: 10%; */
+}
+
+.box-cotainer:nth-child(3) {
+  background-color: cadetblue;
+  position: fixed;
+  top: 50%;
+  /* left: 50%; */
+}
+
 footer {
   height: 30px;
   background-color: royalblue;
