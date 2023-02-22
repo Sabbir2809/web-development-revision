@@ -1,12 +1,21 @@
 # Web Development Revision
 
-- HTML5
-- CSS3
-- JavaScript
-  1. Variables
-  1. Statement & Output
-  1. Data Type
-  1. Operators, Conditional Statement & Switch
-  1. Loops
-  1. Functions
-  1. DOM
+1. HTML5
+1. CSS3
+1. JavaScript
+
+   - Variables
+   - Statement & Output
+   - Data Type
+   - Operators, Conditional Statement & Switch
+   - Loops
+   - Functions
+   - DOM
+
+1. React JS
+   - structure JSX element
+   - spilt JSX into components
+   - render JSX elements
+   - props
+   - hooks (useState, useEffect, useContext, useRef, useReducer)
+   - handle events
